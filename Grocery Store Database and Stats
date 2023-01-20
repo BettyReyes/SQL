@@ -1,0 +1,25 @@
+
+/** Bikestore:
+    Helena (3)
+    Tom (5)
+    Velocity (3)
+    Paw Patrol (2)
+    Bluey (2)
+    **/
+    
+    CREATE TABLE bikestore (id INTEGER PRIMARY KEY, name TEXT, quantity INTEGER, price INTEGER, color TEXT, wheelcount INTEGER);
+    
+    INSERT INTO bikestore VALUES (1,"Helena",3,40.10,"Green",2);
+    INSERT INTO bikestore VALUES (2, "Tom",5,35.00,"Red",2);
+    INSERT INTO bikestore VALUES (3,"Velocity",3,42.50,"Red",2);
+    INSERT INTO bikestore VALUES (4,"Pawpatrol",2,15.00,"Green",3);
+    INSERT INTO bikestore VALUES (5,"Bluey",2,20,"Blue",2);
+    
+    SELECT * from bikestore ORDER BY wheelcount; 
+    SELECT SUM(quantity) from bikestore;
+    
+    
+    
+    
+    
+    
